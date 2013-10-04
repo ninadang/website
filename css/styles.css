@@ -1,0 +1,59 @@
+@import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic,400italic|Quicksand:300,400,700|Oswald:400,300,700);
+
+
+body{
+	margin: 10px;
+	background-image: url(../img/pw_maze_white.png);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+p{
+	text-align: center;
+	padding: 1px;
+}
+
+.name{
+	padding: 30px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 190%;
+	text-align: center;
+	color: #FFF;
+}
+
+.content-box{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 150px;
+	background-color: #000; 
+}
+
+.images{
+	margin-top: 10px;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+}
+
+nav a{
+	display: inline-block;
+	padding: 2px;
+	color: #FFF;
+	font-size: 70%
+}
+
+nav a:link, 
+nav a:visited{
+	text-decoration: none;
+}
+
+nav a:hover{
+	background-color: #BEBEBE;
+}
